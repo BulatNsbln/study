@@ -7,7 +7,6 @@ module Exercise
       def rating(array)
         hash = { country: 'country', rating: 'rating_kinopoisk' }
         count = 0
-
         result = array.select do |film|
           next unless film[hash[:rating]].to_f.positive?
           next if film[hash[:country]].nil?
