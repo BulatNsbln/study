@@ -6,6 +6,7 @@ module Exercise
 
       # Написать свою функцию my_each
       def my_each
+
       end
 
       # Написать свою функцию my_map
